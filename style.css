@@ -1,0 +1,91 @@
+/*box-shadow -> ombres*/
+
+.LaMetricLogo {
+    background-color:rgb(189, 183, 183);
+    width: 98vw;
+    height: 5vw;
+    margin-left: center;
+    object-fit: none;
+  }
+
+.Sections {
+    background-color:rgb(242, 244, 226);
+    display: flex;
+    list-style-type: none; /*enlève le style par défaut*/
+    margin: 10px;
+    height: 75px;
+    padding: 0;
+    text-indent: 5vw;
+    font-size: 1.7vw;
+    justify-content: center;
+    align-items: center;
+    /*justify-content: space-between*/
+}
+
+.Sections li:hover{
+  color:#a9abba
+}
+
+.slider { /*Défini la taille du cadre pour les slides*/
+  width: 800px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.slider-viewport { /*Transforme les éléments de la classe "slide" en */
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slider-content { /*Défini quel type de conteneur est utilisé et le temps entre chaque transition*/
+  display: grid;
+  grid-auto-flow: column; /*Ajoute une colonne dans la grille pour chaque ilage ajoutée*/
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+.slider-content img { /*Défini la dimension des images*/
+  width: 800px;
+  height: 400px;
+}
+
+.slider-nav {
+  position: absolute;
+  width: 100%;
+  bottom: -30px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.slider-nav a {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+          box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  background-color: #adafbc;
+  width: 15px;
+  height: 15px;
+  margin: 0 3px;
+}
+
+.slider-nav a:hover {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+          box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+}
+
+#img2:target .slider-content {
+  -webkit-transform: translateX(-800px);
+          transform: translateX(-800px);
+}
+
+#img3:target .slider-content {
+  -webkit-transform: translateX(-1600px);
+          transform: translateX(-1600px);
+}
+
+.MediumBody{
+  text-align: end;
+  margin-bottom: 0;
+}
+
