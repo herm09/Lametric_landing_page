@@ -1,7 +1,7 @@
 /*box-shadow -> ombres*/
 
 .LaMetricLogo {
-    background-color:rgb(189, 183, 183);
+    background-color:rgb(214, 204, 204);
     width: 98vw;
     height: 5vw;
     margin-left: center;
@@ -9,21 +9,27 @@
   }
 
 .Sections {
-    background-color:rgb(242, 244, 226);
+    background-color: rgb(223, 234, 129);
     display: flex;
     list-style-type: none; /*enlève le style par défaut*/
     margin: 10px;
-    height: 75px;
+    height: 5vw;
     padding: 0;
     text-indent: 5vw;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     justify-content: center;
     align-items: center;
+    font-family: Silkscreen;
     /*justify-content: space-between*/
 }
 
-.Sections li:hover{
-  color:#a9abba
+.Sections a{
+  text-decoration: none;
+  color: black;  
+}
+
+.Sections a:hover{
+  color:#a9abba;
 }
 
 .slider { /*Défini la taille du cadre pour les slides*/
@@ -89,3 +95,82 @@
   margin-bottom: 0;
 }
 
+.MediumBar{
+  height: 5vw;
+  background-color: rgb(225, 215, 215);
+}
+
+.ParagraphSection{
+  margin-bottom: 10vw;
+  
+}
+
+.Container{
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.ImageLeft img{
+  width: 15vw;
+  height: 29vw;
+  margin-top: 40%
+}
+
+.ParagraphRight{
+  width: 80%;
+  margin-top: 14%;
+}
+
+.FirstBlock{
+  text-align: left;
+  padding-left: 13vw;
+  padding-right: 0;
+}
+
+.FirstTitle{
+  font-size: 3em;
+}
+
+.FirstParagraph{
+  font-size: 1.2em;
+  font-family: Silkscreen;
+}
+
+.Transparance{
+  height: 25vw;
+  background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://lametric.com/sites/default/files/2020-11/lametric_music_gif-min.gif);
+  background-position: center;
+  background-size:contain;
+  color: #ffffff;
+  padding: 1em;
+  text-align: center;
+}
+
+.Text{
+  margin-top: 12%;
+  font-size: 3em;
+}
+
+.BottomBar{
+  margin-top: 4%;
+  height: 1vw;
+  background-color: black;
+}
+
+.Logo{
+  margin-top: 3%;
+  list-style: none;
+  /*display: flex;*/
+}
+
+.SocialSection img{
+  height: 3vw;
+  float: left;
+  display: flex;
+  margin: 15px;
+  margin-top: 3vw;
+  margin-left: 5vw;
+  height: 5vw;
+}
