@@ -114,12 +114,12 @@
 .ImageLeft img{
   width: 15vw;
   height: 29vw;
-  margin-top: 40%
+  margin-top: 10vw;
 }
 
 .ParagraphRight{
   width: 80%;
-  margin-top: 14%;
+  margin-top: 13vw;
 }
 
 .FirstBlock{
@@ -165,12 +165,24 @@
   /*display: flex;*/
 }
 
+
+
 .SocialSection img{
-  height: 3vw;
   float: left;
   display: flex;
   margin: 15px;
   margin-top: 3vw;
   margin-left: 5vw;
   height: 5vw;
+  padding-left: 4vw;
+}
+
+.SocialSection {
+  float: left;
+  display: flex;
+  margin: 15px;
+  margin-top: 3vw;
+  margin-left: 5vw;
+  height: 5vw;
+  margin-left: 14vw;
 }
