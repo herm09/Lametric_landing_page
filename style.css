@@ -175,13 +175,14 @@
   margin-left: 5vw;
   height: 5vw;
   padding-left: 4vw;
+  padding-bottom: 2vw;
 }
 
 .SocialSection {
   float: left;
   display: flex;
   margin: 15px;
-  margin-top: 3vw;
+  margin-top: 1vw;
   margin-left: 5vw;
   height: 5vw;
   margin-left: 14vw;
