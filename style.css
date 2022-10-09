@@ -33,8 +33,8 @@
 }
 
 .slider { /*Défini la taille du cadre pour les slides*/
-  width: 800px;
-  margin: 30px auto;
+  width: 53vw;
+  margin: 2vw auto;
   position: relative;
 }
 
@@ -107,19 +107,21 @@
 
 .Container{
   display: flex;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left:12vw;
+  margin-right: 12vw;
+  align-items: center;
 }
 
 .ImageLeft img{
   width: 15vw;
   height: 29vw;
   margin-top: 10vw;
+  position:relative;
 }
 
 .ParagraphRight{
-  width: 80%;
-  margin-top: 13vw;
+  width: 60vw;
+  margin-top: 9vw;
 }
 
 .FirstBlock{
